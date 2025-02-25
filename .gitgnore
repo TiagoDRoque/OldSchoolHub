@@ -1,0 +1,25 @@
+# Arquivos temporários e logs
+*.log
+*.tmp
+
+# Pastas de dependências (se usar npm ou similares no futuro)
+node_modules/
+
+# Arquivos de sistema operacional
+.DS_Store        # MacOS
+Thumbs.db        # Windows
+
+# Arquivos de editores de texto
+*.swp            # Vim
+.vscode/         # Configs do VS Code (opcional, se quiser compartilhar, tire isso)
+.idea/           # Configs do IntelliJ ou WebStorm
+
+# Arquivos de build ou minificação (se adicionar depois)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Arquivos pessoais ou sensíveis
+.env             # Variáveis de ambiente (se usar mais tarde)
+*.bak            # Backups
